@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Amazon_Suite">
+
+	<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReportListener" />
+	</listeners>
+
+	<test name="Amazon_Test">
+		<classes>
+			<class name="com.crm.qa.tests.SignUpPageTest" />
+			<class name="com.crm.qa.tests.LoginPageTest" /> 
+			<class name="com.crm.qa.tests.HomePageTest" />
+			<class name="com.crm.qa.tests.SearchPageTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
